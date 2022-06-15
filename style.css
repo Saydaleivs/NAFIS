@@ -1,0 +1,599 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; 
+    box-sizing: border-box;
+}
+
+
+#contact {
+    transition: 3s;
+}
+
+
+.container-x {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+
+.logo-resize {
+    width: 145.69px;
+    height: 53.15px;
+}
+
+nav {
+    background-image: url(main-bg.png);
+    height: 723px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 36px 0 36px 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1440px;
+}   
+
+.green-navbar {
+    background: radial-gradient(235.74% 587.05% at 50% -24.11%, #15594D 27.43%, rgba(14, 58, 51, 0.656566) 52.96%, rgba(0, 0, 0, 0) 100%)
+}
+
+.items {
+    display: flex;
+}
+
+.items li {
+    list-style: none;
+}
+
+.items li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding-right: 80px ;
+}
+
+.lang h6 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+
+.chosen {
+    text-decoration: underline;
+}
+
+
+.lang {
+    display: flex;
+    margin-right: 47px;
+}
+
+/*  */
+.header {
+    display: flex;
+}
+
+
+.header h1 {
+    width: 567px;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 400;
+    font-family: Tenor Sans;
+    margin-left: 80px;
+    margin-top: 230px;
+    margin-right: 183px;
+}
+
+
+form input, select, option, button {
+    width: 406px;
+    height: 45px;
+    border-radius: 6px;
+    color: #767676;
+    border: 1px solid #FFF;
+    
+}
+
+::placeholder, select, option {
+    color: #767676;
+    padding: 12px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    padding: 32px;
+    width: 470px;
+    border-radius: 16px;
+    margin-top: 160px;
+    
+}
+
+form h2 {
+    color: #15594D;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+
+form h2, input, select {
+    margin-bottom: 24px;
+}
+
+
+.blue-btn {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #15594D;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+
+.comment {
+    padding: 22px 12px 63px 4px;
+}
+
+
+/*  */
+.main-1-container {
+    max-width: 1286px;
+    margin: 0 auto;
+}
+
+
+.logo-header {
+    margin: 100px 0;
+}
+
+.vector-logo {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.block {
+    width: 280px;
+    height: 298px;
+    padding: 13px;
+}
+
+
+.logo-header h2 {
+    color: #000;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: Tenor Sans;
+    text-align: center;
+}
+
+
+.block p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color: #564E4E;
+    text-align: center;
+    width: 247px;
+    height: 130px;
+} 
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    width: 211px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.small-icons {
+    width: 60px;
+    height: 60px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+}
+
+.vector-logo {
+    width: 89px;
+    height: 47px;
+}
+
+/*  */
+.kitchen-resize {
+    width: 722px;
+    height: 524px;
+    margin-left: 80px;
+}
+
+.big-header {
+    font-size: 40px;
+    font-family: Tenor Sans;
+    font-weight: 400;
+    width: 391px; 
+    color: #000;
+}
+
+.numbers-1 p {
+    color: #564E4E;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    width: 135px;
+}
+
+
+.numbers {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.numbers-1 {
+    padding-right: 100px;
+}
+
+
+
+.numbers-1 h1 {
+    color: #9C5642;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: Tenor Sans;
+}
+
+
+.content {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+
+
+/* main 4 */
+.main4-resize {
+    width: 295px;
+    height: 395px;
+} 
+
+
+.main-4 {
+    max-width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+
+.main-4-images {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 115px;
+}
+
+
+.abso {
+    width: 370px;
+    height: 490px;  
+    background-image:url(main3-img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    position: relative;
+    top: -45px;
+}
+
+
+.abso-info {
+    color: #fff;
+    background-color: #15594D;
+    margin-top: 120px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    width: 293px;
+    height: 108px;
+    position:relative;
+    right: -45px;
+    bottom: -210px;
+}
+
+.cont {
+    position: relative;  
+}
+
+.abso-info h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff1EA;
+}
+
+.abso-info h1 {
+    font-family: Tenor Sans;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.abso-info h1 {
+    margin-top: 9px;
+}
+
+/* main 5 */
+.main-5
+
+
+.main5-resize {
+    display: inline-flex;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+
+.main5-resize1 {
+    background-image: url(person1.png);
+    background-repeat: no-repeat;
+}
+
+.main5-resize h3 {
+    padding-top: 300px;
+    padding-left: 40px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%);
+    border-radius: 10px;
+    height: 358px;
+    width: 231px;
+    color: #fff;
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.main5-resize2 {
+    background-image: url(person2.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.main5-resize3 {
+    background-image: url(person3.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.main5-resize4 {
+    background-image: url(person4.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.main5-resize5 {
+    background-image: url(person5.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* contacts */
+.contact-content h1 {
+    width: 1044px;
+    line-height: 66px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Montserrat;
+    color: #000;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.contacts {
+    max-width: 1044px;
+    margin: 0 auto;
+}
+
+
+.data {
+    margin-bottom: 80px;
+}
+
+
+.main-data {
+    margin-top: 100px;
+}
+
+
+
+.data h2 {
+    font-family: Montserrat;
+    color: #15594D;
+    font-size: 26.2px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+
+.data h3 {
+    width: 454px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    line-height: 39.01px;
+}
+
+.main-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Footer */
+.container-footer {
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+footer {
+    background-color: #FBFBF9;
+}
+
+
+.ml-icon {
+    margin-left: 21px;
+    margin-top: 18px;
+}
+
+.generally {
+    width: 155px;
+}
+
+.detailed-projects {
+    width: 173px;
+}
+
+.support {
+    width: 227px;
+}
+
+
+.contacts-x  {
+    width: 295px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+
+.foot a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+.foot h2 {
+    color: #000;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+
+/* project.html */
+.bg-image {
+    width: 600px;
+    height: 529px;
+}
+
+.project-main1 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.project-main1-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+.bg-image1 {
+    background-image: url(square1.jpg);
+}
+.bg-image2 {
+    background-image: url(square2.png);
+}
+.bg-image3 {
+    background-image: url(square3.png);
+}
+.bg-image4 {
+    background-image: url(square4.png);
+}
+
+
+.abso-info-project {
+    width: 351px;
+    height: 136px;
+}
+
+.abso-info-project h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.abso-info-project img {
+    width: 36px;
+    height: 36px;
+}
+
+.abso-info-project h1 {
+    font-weight: 600;
+    font-size: 28.766px;
+    line-height: 35px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.flex2 img {
+    width: 14.53px;
+    height: 14.53px;
+}
+
+.flex2 p {
+    font-weight: 500;
+    font-size: 13.8077px;
+    line-height: 17px;
+    margin-left: 8px;
+}
+
